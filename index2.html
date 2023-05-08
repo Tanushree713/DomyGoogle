@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google-Search Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <!-- div container>>google>>div>>input>>mic>>searchglass>>btn -->
+
+    <div class="container">
+        <div class="container1">
+            <img src="./google.png" alt="google">
+            <div class="container1a">
+                <i id="font" class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="input" placeholder= "Search Google Or URL Type" value="">
+                <img src="./micimg.png" alt="mic">
+            </div>
+        </div>
+        <button id="btn" onclick="queryCall()">Search</button>
+    </div>
+    <script src="./server2.js"></script>
+</body>
+</html>
